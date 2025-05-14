@@ -13,6 +13,7 @@ A modern notes app made for AmogOS.
 - Recycle bin
 - Temporary notes
 - Settings management
+- Amogus Buddies 
 
 ## Installation
 
@@ -20,6 +21,12 @@ A modern notes app made for AmogOS.
 2. Install the required dependencies:
 ```bash
 pip install -r requirements.txt
+```
+
+## Data Storage
+
+```bash
+~/.amogosnotes_data
 ```
 
 ## Running the Application
