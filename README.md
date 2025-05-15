@@ -15,9 +15,16 @@ A modern notes app made for AmogOS.
 - Recycle bin
 - Temporary notes
 - Settings management
-- Amogus Buddies 
+- Amogus Buddies
 
-## Installation
+# Easily Running AmogOS Notes
+
+Download the Latest Binary here
+
+# Linux x86_64
+https://github.com/Amog-OS/AmogOS-Notes/releases/tag/1.0-alpha
+
+## Running AmogOS Notes Manually
 
 1. Clone this repository
 2. Install the required dependencies:
