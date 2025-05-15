@@ -3426,6 +3426,7 @@ class AmogusBuddyChat(QWidget):
             import os
             import requests
             from bs4 import BeautifulSoup
+            import tempfile
 
             print(f"[DEBUG] Performing search for: {query}")
 
@@ -3443,10 +3444,13 @@ class AmogusBuddyChat(QWidget):
             response = requests.get(ddg_url, headers=headers)
             print(f"[DEBUG] DuckDuckGo Status Code: {response.status_code}")
 
-
-            with open("/tmp/ddg_page.html", "w", encoding="utf-8") as f:
-                f.write(response.text)
-                print(f"[DEBUG] Saved raw DuckDuckGo HTML to /tmp/ddg_page.html")
+            try:
+                with tempfile.NamedTemporaryFile(mode="w", encoding="utf-8", delete=False, suffix=".html") as tmp_f:
+                    tmp_file_path = tmp_f.name
+                    tmp_f.write(response.text)
+                print(f"[DEBUG] Saved raw DuckDuckGo HTML to {tmp_file_path}")
+            except Exception as e:
+                print(f"[DEBUG] Could not write temp debug file: {e}")
 
 
             soup = BeautifulSoup(response.text, 'html.parser')
