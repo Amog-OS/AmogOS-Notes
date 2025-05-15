@@ -21,8 +21,7 @@ A modern notes app made for AmogOS.
 
 Download the Latest Binary here
 
-# Linux x86_64
-https://github.com/Amog-OS/AmogOS-Notes/releases/tag/1.0-alpha
+Linux x86_64: https://github.com/Amog-OS/AmogOS-Notes/releases/tag/1.0-alpha-linux-x86_64
 
 ## Running AmogOS Notes Manually
 
