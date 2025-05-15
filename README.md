@@ -2,6 +2,8 @@
 
 A modern notes app made for AmogOS.
 
+> This program is heavily under development, this is alpha software!
+
 ## Features
 
 - Modern multiple themes interface
