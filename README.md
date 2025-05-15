@@ -7,7 +7,7 @@ A modern notes app made for AmogOS.
 - Modern multiple themes interface
 - Sidebar navigation
 - Gradient text styling
-- Note organization by categories
+- Note organization by categories (alpha will be buggy)
 - Favorites section
 - Sync capabilities (coming soon)
 - Recycle bin
