@@ -6,8 +6,8 @@ pkgdesc="A modern, feature-rich notes app designed for AmogOS — lightweight, f
 arch=('i686' 'x86_64' 'armv7h' 'aarch64' 'pentium4' 'i486')
 url="https://github.com/Amog-OS/AmogOS-Notes"
 license=('GPL')
-depends=('python' 'python-pyqt6' 'python-pyqt6-sip' 'python-beautifulsoup4' 'pyinstaller')
-makedepends=('git')
+depends=('python')
+makedepends=('git' 'python-pyqt6' 'python-pyqt6-sip' 'python-beautifulsoup4' 'pyinstaller')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/Amog-OS/AmogOS-Notes/archive/refs/heads/main.tar.gz")
 sha256sums=('SKIP')
 
