@@ -7,7 +7,7 @@ arch=('i686' 'x86_64' 'armv7h' 'aarch64' 'pentium4' 'i486')
 url="https://github.com/Amog-OS/AmogOS-Notes"
 license=('GPL')
 depends=('python')
-makedepends=('git' 'python-pyqt6' 'python-pyqt6-sip' 'python-beautifulsoup4' 'pyinstaller' 'qt3')
+makedepends=('git' 'python-pyqt6' 'python-pyqt6-sip' 'python-beautifulsoup4' 'pyinstaller' 'gtk3')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/Amog-OS/AmogOS-Notes/archive/refs/heads/main.tar.gz")
 sha256sums=('SKIP')
 
